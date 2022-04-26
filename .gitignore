@@ -1,0 +1,8 @@
+bin/
+.idea
+.DS_Store
+._*
+*.swp
+*.code-workspace
+*.json
+json-strip-comments

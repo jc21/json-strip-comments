@@ -1,0 +1,26 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema#",
+	"additionalProperties": false,
+	// Example Config
+	"definitions": {
+		/* Example Config 2 */
+		"api_sales_vendor_agent": {
+			"additionalProperties": false,
+			"properties": {
+				"token": {
+					"type": "string"
+				},
+				/*
+				Blah blah blah
+				*/
+				"url": {
+					"type": "string"
+				},
+				"username": {
+					"type": "string"
+				}
+			},
+			"type": "object"
+		}
+	}
+}
