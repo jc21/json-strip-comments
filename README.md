@@ -35,7 +35,8 @@ json string for example.
   /*
   Multi line comments are removed as well \o/
   */
-  "email": "user@example.com" // however, this comment will NOT be removed
+  "email": "user@example.com", // however, this comment will NOT be removed
+  "enabled": true /* and neither would this one */
 }
 ```
 
