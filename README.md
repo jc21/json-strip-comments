@@ -19,6 +19,26 @@ Options:
   --help, -h             display this help and exit
 ```
 
+## Caveats
+
+Due to the simplicity of this project, only comments with whitespace preceeding them
+will be removed. This prevents removing false positive comments from the inside of a
+json string for example.
+
+```jsonc
+// this comment will be removed
+{
+  // and this one too
+  "id": 1,
+  /* and so will this */
+  "name": "Bobby Tables",
+  /*
+  Multi line comments are removed as well \o/
+  */
+  "email": "user@example.com" // however, this comment will NOT be removed
+}
+```
+
 ## Usage Examples
 
 #### Piping stdin
