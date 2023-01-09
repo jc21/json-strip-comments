@@ -6,3 +6,5 @@ bin/
 *.code-workspace
 *.json
 json-strip-comments
+*.tgz
+
